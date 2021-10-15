@@ -103,3 +103,34 @@ Ini adalah dokumentasi linux dari vfork dan cara menggunakannya. Disebutkan di O
 10. [Fork vs vfork](https://www.geeksforgeeks.org/difference-between-fork-and-vfork/)<br>
 Kita sudah belajar tentang fork dan vfork. Sekarang apa perbedaan antara keduanya? Pada artikel ini Anda akan mengetahui tentang perbedaan antara fork dan vfork dan cara menggunakannya.
 
+# Bahan Bacaan W06
+
+1. [Multithreading](https://www.youtube.com/watch?v=7ENFeb-J75k&ab_channel=Computerphile) <br>
+Video ini adalah tentang bagaimana multithreading benar-benar bekerja. Dijelaskan oleh dosen terkemuka Dr. Steve dari University of Nottingham, Inggris. Video tersebut memberi tahu kita lebih banyak tentang cara kerja multithreading dalam bahasa C juga bagaimana bahasa tingkat mesin melihatnya.
+
+2. [exec() VS fork()](https://www.youtube.com/watch?v=IFEFVXvjiHY&ab_channel=NesoAcademy) <br>
+Jika Anda sudah mencoba Demo W06, Anda akan menemukan exec dan fork, jadi saya sarankan Anda mencoba demo terlebih dahulu sebelum melanjutkan. Oke, jadi pada dasarnya panggilan sistem fork() digunakan ketika kita ingin membuat proses duplikat file yang terpisah sementara exec() dipanggil setiap kali kita perlu mengganti seluruh proses (termasuk utas) dari sebuah program di exec parameter. Ada beberapa perbedaan juga yang akan dibahas dalam video di atas.
+
+3. [Penjadwalan Proses CPU](https://www.youtube.com/watch?v=exlaEOVRWQM&ab_channel=Xoviabcs) <br>
+Topik ini menyentuh kembali ke subjek manajemen memori, yah. Ada prinsip FIFO dan LIFO yang akan dikelola oleh FCFS, Round Robin, SRTF, dan SJF. Contohnya dalam kehidupan nyata adalah: Ketika Anda pergi ke bioskop, Anda harus mengantri untuk mendapatkan tiket. Kasir akan melayani yang pertama datang, dll. Mulai dari sini, algoritme dipilih berdasarkan kondisi manajemen ini, apakah Anda ingin menyajikan data pertama yang keluar atau yang terakhir.
+
+4. [Konkurensi vs Paralelisme](https://www.youtube.com/watch?v=FChZP09Ba4E&ab_channel=DefogTech) <br>
+Video ini menceritakan banyak tentang perbedaan antara konkurensi dan paralelisme, kapan menggunakannya dan bahkan menyertakan beberapa contoh pada keduanya.
+
+5. [Thread vs Proses](https://www.geeksforgeeks.org/difference-between-process-and-thread/) <br>
+Kami telah belajar tentang threading dan proses. Sekarang kita akan membahas lebih lanjut tentang perbedaan antara thread dan proses. Proses berarti program apa pun sedang dieksekusi sementara utas hanya proses dari beberapa program. Tautan ini akan memberi tahu Anda lebih banyak tentang perbedaan semacam itu antara proses dan thread.
+
+6. [Multitask, Multithread, Multiprocess?](https://www.youtube.com/watch?v=Tn0u-IIBmtc&ab_channel=GaryExplains) <br>
+Masih terkait dengan topik sebelumnya, sekarang kita akan membahas tentang multitasking, multithreading, dan multiprocessing serta perbedaan dari ketiganya.
+
+7. [Kelebihan dan Kekurangan Multithreading](https://docs.Oracle.com/cd/E13203_01/tuxedo/tux71/html/pgthr5.htm) <br>
+Tautan di atas adalah tentang kelebihan dan kekurangan menggunakan program multithreaded. Misalnya, ketika menggunakan multithreading pada suatu aplikasi, tentu akan meningkatkan kinerja dan konkurensi program tetapi juga akan sulit untuk menerapkan TDD (Test Driven Development) pada program karena akan sulit untuk menguji program.
+
+8. [pipe() Panggilan Sistem](https://www.geeksforgeeks.org/pipe-system-call/) <br>
+Sekarang kita beralih ke multiprocessing. Dalam multiprocessing, bagaimana kita berkomunikasi antara dua proses? Jawaban sederhananya adalah dengan menggunakan pipe() System call. Ini menggunakan file simpan yang dirujuk dengan deskriptor file. Saat menggunakan system call pipe(), kita melewatkan array integer dengan ukuran 2 di mana indeks 0 bertindak sebagai deskriptor file untuk membaca, sedangkan indeks 1 bertindak sebagai deskriptor untuk menulis.
+
+9. [Kumpulan Utas](https://docs.Oracle.com/javase/tutorial/essential/concurrency/pools.html) <br>
+Ini terkait dengan konkurensi, terutama jika Anda pernah bekerja dengan Java sebelumnya, maka Anda pasti pernah melihat ini ketika mengalami kesalahan mockito. Cukup menarik, kumpulan thread adalah salah satu solusi untuk masalah ini.
+
+10. [Keadaan proses yang berbeda](https://www.tutorialspoint.com/what-are-the-different-states-of-a-process) <br>
+Ada negara yang berbeda dalam satu proses. Misalnya, dengan fungsi wait() (dengan asumsi Anda sudah memahaminya), kami menempatkan proses pada status diblokir agar tidak berjalan. Ada dua proses dalam contoh itu yang diblokir dan berjalan. Tentu saja ada status lain selain dari keduanya yang akan dicakup oleh tautan di atas. Tautan bertindak sebagai lembar contekan ketika Anda menemukan sesuatu yang terkait dengan status pemrosesan.

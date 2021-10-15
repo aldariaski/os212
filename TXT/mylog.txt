@@ -27,3 +27,6 @@ ZCZC W04 400 L09 Mengerjakan assignment w 04
 ZCZC W05 20 L22 Kuis OS
 ZCZC W05 100 L02 Kelas OS
 ZCZC W05 150 L09 Mengerjakan assignment W05
+ZCZC W06 100 L99 Istirahat
+ZCZC W06 100 L10 Week 06 nugas
+ZCZC W06 200 L70 Tugas lain
