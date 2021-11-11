@@ -30,3 +30,4 @@ ZCZC W05 150 L09 Mengerjakan assignment W05
 ZCZC W06 100 L99 Istirahat
 ZCZC W06 100 L10 Week 06 nugas
 ZCZC W06 200 L70 Tugas lain
+ZCZC W08 180 L10 Week 08 nugas
