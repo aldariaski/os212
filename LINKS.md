@@ -134,3 +134,49 @@ Ini terkait dengan konkurensi, terutama jika Anda pernah bekerja dengan Java seb
 
 10. [Keadaan proses yang berbeda](https://www.tutorialspoint.com/what-are-the-different-states-of-a-process) <br>
 Ada negara yang berbeda dalam satu proses. Misalnya, dengan fungsi wait() (dengan asumsi Anda sudah memahaminya), kami menempatkan proses pada status diblokir agar tidak berjalan. Ada dua proses dalam contoh itu yang diblokir dan berjalan. Tentu saja ada status lain selain dari keduanya yang akan dicakup oleh tautan di atas. Tautan bertindak sebagai lembar contekan ketika Anda menemukan sesuatu yang terkait dengan status pemrosesan.
+
+# Bahan Bacaan W07
+
+1. [Algoritma Banker](https://rosettacode.org/wiki/Banker%27s_algorithm) <br>
+Artikel ini adalah tentang algoritma bankir yang saya temukan dengan menelusuri rekomendasi teman saya. Ini pada dasarnya adalah anak poster multithreading dari google.
+2. [Deadlock?](https://docs.Oracle.com/javadb/10.10.1.2/devguide/cdevconcepts28436.html) <br>
+Apa itu kebuntuan basis data? saya telah melihat istilah ini ketika saya membaca sekilas materi minggu 07. Saya mencari melalui internet, dan saya menemukan dokumentasi ini di Oracle tentang apa itu kebuntuan. Hal yang cukup penting untuk dibahas menurut saya.
+3. [Deadlock vs Starvation?](https://www.geeksforgeeks.org/difference-between-deadlock-and-starvation-in-os/) <br>
+Apa perbedaan antara kebuntuan dan kelaparan? Secara summarization, pada dasarnya deadlock muncul ketika setiap proses menahan resource dan menunggu resource lain dipegang oleh proses lain, sedangkan starvation adalah masalah yang terjadi ketika proses berprioritas tinggi terus dieksekusi dan proses berprioritas rendah terus diblokir tanpa batas. Untuk informasi lebih lanjut, Anda dapat memeriksa tautan di atas
+4. [Pemulihan dan deteksi deadlock](https://www.quora.com/Why-dont-Windows-and-Unix-recover-from-deadlock-Why-is-there-no-deadlock-detection-and-recover -algoritma-digunakan) <br>
+Ini adalah cara untuk memecahkan masalah. Kita bisa membuat algoritme, tetapi seolah-olah kita sedang mencoba menjalankan proses sistem operasi yang rusak dan sebagainya. Ini mungkin berhasil, tetapi tidak seperti yang dimaksudkan. Dengan demikian kita dapat mengatakan bahwa pada akhirnya cara terbaik untuk mencegah dan memecahkan masalah kebuntuan adalah dengan me-reboot mesin.
+5. [Kernel Linux Preemptive!](https://stackoverflow.com/questions/5283501/what-does-it-mean-to-say-linux-kernel-is-preemptive) <br>
+Apa artinya?? Nah, secara historis selama kernel linux versi 2.5.4, itu tidak preemptive. Artinya, proses yang berjalan dalam mode kernel tidak dapat dipindahkan dari prosesor sampai proses itu sendiri meninggalkan prosesor atau mulai menunggu beberapa operasi input output selesai. Jadi pada dasarnya preemptiveness adalah apa yang memungkinkan hal-hal yang saya sebutkan sebelumnya.
+6. [Semaphore?](https://www.youtube.com/watch?v=ukM_zzrIeXs&ab_channel=JacobSorber) <br>
+Apa itu semafor? apa fungsinya? Kita mungkin tahu semaphore dari boyscouts, tapi apakah sama? Video ini akan menjelaskan lebih lanjut tentang hubungan antara keduanya. Ini sebenarnya tentang pemecahan masalah sinkronisasi.
+7. [Semaphore vs Mutex](https://www.youtube.com/watch?v=DvF3AsTglUU&ab_channel=HowTo) <br>
+Video ini menjelaskan banyak tentang perbedaan antara mutex dan semaphore dan kapan menggunakannya. Keduanya adalah mekanisme penguncian pada sumber daya. Perbedaan antara keduanya jika kita harus menyimpulkan bahwa mutex jauh lebih sederhana dibandingkan dengan mekanisme semaphore. Lebih lanjut akan dijelaskan melalui video.
+8. [Masalah Filsuf Makan](https://www.javatpoint.com/os-dining-philosophers-problem) <br>
+Masalah filsuf makan adalah masalah klasik sinkronisasi. Lima filsuf duduk mengelilingi meja bundar dan tugas mereka adalah berpikir dan makan secara bergantian. Semangkuk makanan diletakkan di tengah meja bersama dengan 5 pasang sumpit untuk mereka makan. Untuk makan mereka membutuhkan sumpit kanan dan kiri. Jika sumpit kiri dan kanan langsung tidak tersedia, maka para filsuf meletakkan sumpit mereka untuk memikirkan kembali. Ini adalah masalah sinkronisasi yang akan dibahas dalam tautan di atas.
+9. [Masalah Peterson](https://www.tutorialspoint.com/peterson-s-problem) <br>
+Apa masalah peterson? Solusinya menyediakan algoritma yang baik dalam memecahkan masalah bagian kritis dan mengilustrasikan beberapa kompleksitas yang terlibat dalam merancang perangkat lunak yang memenuhi persyaratan pengecualian bersama, dll. Buka artikel untuk info lebih lanjut.
+10. [Ketentuan Balapan](https://www.youtube.com/watch?v=FY9livorrJI&ab_channel=CodeVault) <br>
+Apa itu kondisi balapan? Anda akan melihat ini dalam pemrograman sebelumnya. Singkatnya, ini adalah masalah yang terjadi ketika ada 2 atau lebih program yang mengakses atau memodifikasi satu data secara bersamaan. Bagaimana itu terjadi dan bagaimana menanganinya akan dibahas dalam video ini.
+
+# Bahan Bacaan W08
+
+1. [Antrian multi level dan antrean masukan](https://www.youtube.com/watch?v=1w9FybdNi_Y&ab_channel=Uncode-GATEComputerScience) <br>
+Pernah bertanya-tanya tentang antrian multi level dan antrian umpan balik multi level? Ini adalah waktu yang tepat untuk menonton video di atas. Video ini akan menjelaskan lebih lanjut tentang antrian multi level dan antrian umpan balik multi level secara lebih rinci.
+2. [Speedrunning LFS](https://rachelbythebay.com/w/2020/04/11/pengrun/) <br>
+Sekali lagi saya kembali dengan topik baru tentang speedrunning. Kali ini tentang LFS speedrun. Ini adalah topik cheat untuk jujur. Konsep tersebut menyoroti salah satu fitur komunitas linux. Link ini akan menjelaskan lebih lanjut tentang LFS speedrunning.
+3. [Penjadwal Linux](https://www.kernel.org/doc/html/latest/scheduler/index.html) <br>
+Linux memiliki hal yang disebut scheduler. Pada dasarnya di linux, jika Anda memiliki banyak utas, penyelesaian yang dilakukan melalui aktivitas kernel akan menghasilkan solusi bebas balapan. Salah satu solusinya adalah dengan memanfaatkan penjadwal linux, untuk informasi lebih lanjut tentang topik itu, tautan dokumentasi ini akan menyediakan lebih banyak.
+4. [Preemptive vs Non-Preemptive?](https://www.guru99.com/preemptive-vs-non-preemptive-scheduling.html) <br>
+Topik ini akan membahas lebih lanjut tentang perbedaan antara penjadwal preemptive dan penjadwal non-preemptive. Pada dasarnya yang preemptive adalah metode di mana tugas ditugaskan di samping prioritas mereka, dan dieksekusi berdasarkan prioritas mereka. Lebih banyak akan dibahas oleh tautan di atas.
+5. [Dispatcher dan Penjadwal](https://www.geeksforgeeks.org/difference-between-dispatcher-and-scheduler/) <br>
+Penjadwal adalah perangkat lunak sistem khusus yang menangani penjadwalan proses beberapa utas dengan berbagai cara, sedangkan operator adalah program khusus yang berjalan SETELAH penjadwal. Fungsinya adalah untuk memberikan kontrol proses atas CPU setelah dipilih oleh penjadwal jangka pendek. Untuk lebih jelasnya Anda dapat mengunjungi tautan di atas.
+6. [Terlalu lama, tidak membaca linux dari awal](https://github.com/comfies/tldrlfs) <br>
+Repositori di atas ditemukan ketika saya mencoba menemukan semacam cara untuk memahami LFS tanpa membacanya dengan cara konvensional yang lama. Saya menemukan ini ketika saya melakukan GSGS dan ini pada dasarnya bertindak sebagai lembar contekan untuk Anda. Ini seluruhnya terdiri dari file README untuk memandu Anda memahami LFS minimal.
+7. [Penjadwalan round robin dengan waktu kedatangan berbeda](https://www.geeksforgeeks.org/round-robin-scheduling-with-different-arrival-times/) <br>
+Algoritma ini digunakan untuk menjadwalkan proses secara adil untuk setiap pekerjaan slot waktu dan mengganggu pekerjaan jika tidak selesai pada saat itu, pekerjaan datang setelah pekerjaan lain yang tiba dalam waktu kuantum yang membuat sistem penjadwalan ini adil. Untuk informasi lebih lanjut baca artikel di atas.
+8. [NUMA](https://www.youtube.com/watch?v=gCOEunP5kjs&ab_channel=JargonsSimplified) <br>
+Video ini akan menjelaskan tentang Non-Uniform Memory Access policy atau disingkat NUMA. Juga menjelaskan tentang penggunaan dan implementasi NUMA di dalam komputer. Saya sarankan Anda menonton video.
+9. [Penjadwalan CPU](https://www.u-aizu.ac.jp/~yliu/teaching/os/lec10r.html) <br>
+Tautan ini untuk mempelajari lebih lanjut tentang penjadwalan CPU. Bagaimana tepatnya CPU mengelola sistem penjadwalannya sendiri dari awal hingga akhir. Hal-hal menarik seperti simulasi kondisi pengacakan sistem operasi juga disertakan. Ini bacaan yang bagus.
+10. [O Besar](https://www.bigocheatsheet.com/) <br>
+Saya yakin kalian sudah pernah mengkonsumsi SDA sebelumnya atau mungkin sedang mengkonsumsi DAA? Notasi asimtotik o besar akan akrab bagi Anda sekarang saya kira. Tautan di atas ini menyediakan lembar contekan untuk notasi O besar. Ini mungkin membantu dalam menentukan kompleksitas runtime algoritme Anda dalam proses yang sedang berjalan.
