@@ -180,3 +180,26 @@ Video ini akan menjelaskan tentang Non-Uniform Memory Access policy atau disingk
 Tautan ini untuk mempelajari lebih lanjut tentang penjadwalan CPU. Bagaimana tepatnya CPU mengelola sistem penjadwalannya sendiri dari awal hingga akhir. Hal-hal menarik seperti simulasi kondisi pengacakan sistem operasi juga disertakan. Ini bacaan yang bagus.
 10. [O Besar](https://www.bigocheatsheet.com/) <br>
 Saya yakin kalian sudah pernah mengkonsumsi SDA sebelumnya atau mungkin sedang mengkonsumsi DAA? Notasi asimtotik o besar akan akrab bagi Anda sekarang saya kira. Tautan di atas ini menyediakan lembar contekan untuk notasi O besar. Ini mungkin membantu dalam menentukan kompleksitas runtime algoritme Anda dalam proses yang sedang berjalan.
+
+# Bahan Bacaan W09
+
+1. [Harddisk di dalam saat dijalankan](https://www.youtube.com/watch?v=p-JJp-oLx58&ab_channel=VanSvenson) <br>
+Video ini akan menunjukkan bagaimana tampilan drive saat digunakan.
+2. [Booloader](https://en.wikipedia.org/wiki/Bootloader)<br>
+Artikel ini cukup menjelaskan tentang definisi dan cara kerja bootloader.
+3. [Clover Bootloader](https://insmac.org/macosx/3526-clover-efi-bootloader.html) <br>
+Artikel ini akan membahas lebih lanjut tentang bootloader semanggi.
+4. [Systemd](http://systemd.io/) <br>
+Artikel ini pertama-tama akan menjelaskan tentang systemd khususnya di linux.
+5. [Mengapa orang membenci systemd](https://www.infoworld.com/article/3159124/linux-why-do-people-hate-systemd.html) <br>
+Saya menemukan artikel ini tentang mengapa orang membenci systemd, ini menarik.
+6. [GPT vs MBR](https://www.howtogeek.com/193669/whats-the-difference-between-gpt-and-mbr-when-partitioning-a-drive/)<br>
+Artikel ini membahas tentang perbedaan antara partisi drive.
+7. [Keandalan SSD](https://www.backblaze.com/blog/how-reliable-are-ssds/#:~:text=SSD%20Reliability%20Factors%20to%20Consider,magnetic%20fields%20better%20than %20HDD.)<br>
+Artikel ini akan membahas lebih lanjut tentang keandalan SSD
+8. [UEFI](https://qwords.com/blog/apa-itu-uefi-dan-legacy/) <br>
+Artikel ini ditulis dalam bahasa Indonesia. Ini akan memberi tahu Anda tentang apa itu uefi dan bagaimana cara kerjanya.
+9. [NAS](https://www.snia.org/education/what-is-nas) <br>
+Menurut artikel tersebut, NAS adalah "Istilah yang digunakan untuk merujuk pada perangkat penyimpanan yang terhubung ke jaringan dan menyediakan layanan akses file ke sistem komputer", artikel ini akan membahas lebih lanjut tentang itu.
+10. [LAN](https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html) <br>
+LAN adalah singkatan dari jaringan area lokal. Artikel ini akan membahas tentang itu.
